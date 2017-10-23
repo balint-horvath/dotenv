@@ -1,5 +1,5 @@
 # dotenv
-Simple .env file parser and ENV loader (`.env` to `getenv()`, `$_ENV`) based on standard PHP INI parser (parse_ini_file).
+Simple .env file parser and ENV loader (`.env` to `getenv()` and `$_ENV`) based on standard PHP INI parser (parse_ini_file).
 
 ![Version 1.0](https://img.shields.io/badge/version-1.0-yellow.svg)
 ![Build Passing](https://img.shields.io/badge/build-passing-green.svg)
