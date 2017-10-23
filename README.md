@@ -127,7 +127,7 @@ $dotenv = new \BalintHorvath\DotEnv\DotEnv(APP_DIR);
 
 **Example:**
 ```php
-    $_ENV['API_apiUser']
+    getenv('API_apiUser')
 ```
 ```php
     User: <?=getenv('API_apiUser')?>
