@@ -1,0 +1,31 @@
+{
+    "name": "balint-horvath/dotenv-php",
+    "description": "Lightweight .env file parser and loader (PHP)",
+    "type": "project",
+    "license": "Apache License Version 2.0, January 2004",
+    "authors": [
+        {
+            "name": "Bálint Horváth",
+            "email": "balint@balint.digital"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BalintHorvath\\DotEnv\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BalintHorvath\\DotEnv\\Spec\\": "spec/"
+        }
+    },
+    "scripts": {
+      "test": "vendor/bin/kahlan"
+    }
+}
