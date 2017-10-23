@@ -121,8 +121,8 @@ $dotenv = new \BalintHorvath\DotEnv\DotEnv(APP_DIR);
 
 **Usage:**
 ```php
-    getenv['variable']
-    getenv=('section_variable')
+    getenv('variable')
+    getenv('section_variable')
 ```
 
 **Example:**
