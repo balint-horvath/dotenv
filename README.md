@@ -11,8 +11,8 @@ Simple .env file parser and ENV loader (`.env` to `getenv()` and `$_ENV`) based 
 - **$_ENV[variable]**
 - **$_ENV[section_variable]**
 - **$dotenv->variable**
-- **$dotenv[variable]**
 - **$dotenv->section->variable**
+- **$dotenv[variable]**
 - **$dotenv[section][variable]**
 
 # Examples
@@ -94,8 +94,8 @@ $dotenv = new \BalintHorvath\DotEnv\DotEnv(APP_DIR);
 ```
 
 ```php
-    User: <?=$dotenv->API->apiUser?>
-    Password: <?=$dotenv->API->apiKey?>
+    API User: <?=$dotenv->API->apiUser?>
+    API Key: <?=$dotenv->API->apiKey?>
 ```
 
 
@@ -113,8 +113,8 @@ $dotenv = new \BalintHorvath\DotEnv\DotEnv(APP_DIR);
     $_ENV['API_apiUser']
 ```
 ```php
-    User: <?=$_ENV['API_apiUser']?>
-    Password: <?=$_ENV['API_apiKey']?>
+    API User: <?=$_ENV['API_apiUser']?>
+    API Key: <?=$_ENV['API_apiKey']?>
 ```
 
 ## ENV Access (getenv)
@@ -130,8 +130,8 @@ $dotenv = new \BalintHorvath\DotEnv\DotEnv(APP_DIR);
     getenv('API_apiUser')
 ```
 ```php
-    User: <?=getenv('API_apiUser')?>
-    Password: <?=getenv('API_apiKey')?>
+    API User: <?=getenv('API_apiUser')?>
+    API Key: <?=getenv('API_apiKey')?>
 ```
 
 ## Array Access
