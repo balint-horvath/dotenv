@@ -5,6 +5,8 @@ Simple .env file parser and ENV loader (`.env` to `getenv()` and `$_ENV`) based 
 ![Build Passing](https://img.shields.io/badge/build-passing-green.svg)
 ![PHP 7.0](https://img.shields.io/badge/php-7.0-blue.svg)
 
+[![balint-horvath/dotenv-php](https://img.shields.io/badge/packagist-balint%E2%80%94horvath%2Fdotenv%E2%80%94php-blue.svg)](https://packagist.org/packages/balint-horvath/dotenv-php)
+
 **Supported methods:**
 - **getenv(variable)**
 - **getenv(section_variable)**
