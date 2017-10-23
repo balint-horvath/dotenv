@@ -1,7 +1,7 @@
 {
     "name": "balint-horvath/dotenv-php",
     "description": "Lightweight .env file parser and loader (PHP)",
-    "type": "project",
+    "type": "library",
     "license": "Apache License Version 2.0, January 2004",
     "authors": [
         {

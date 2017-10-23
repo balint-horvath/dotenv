@@ -76,6 +76,5 @@ $dotenv = new \BalintHorvath\DotEnv\DotEnv(EXAMPLE_DIR);
         API Key: <?=$dotenv['API']['apiKey']?>
     </p>
 
-
 </body>
 </html>
