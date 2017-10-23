@@ -1,6 +1,6 @@
 {
     "name": "balint-horvath/dotenv-php",
-    "description": "Lightweight .env file parser and loader (PHP)",
+    "description": "Simple .env file parser and ENV loader (`.env` to `getenv()`, `$_ENV`) based on standard PHP INI parser (parse_ini_file).",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
